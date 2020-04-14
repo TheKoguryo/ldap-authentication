@@ -17,7 +17,7 @@ Kubernetes Authentication with LDAP - Soup to Nuts
 * run all phpldapadmin yaml
 * run all gangway yaml
 * modify gangway configmap
-  * ``` 
+  ``` 
     clusterName: "GANGWAY"  <-- any name you want?
     apiServerURL: "https://18.217.73.69:6443"  <-- K8s api endpoint
     authorizeURL: "https://18.217.73.69:30010/auth" <--  Dex external endpoint (nodeport)
@@ -25,6 +25,7 @@ Kubernetes Authentication with LDAP - Soup to Nuts
     clientID: "dex"
     clientSecret: "ZXhhbXBsZS1hcHAtc2VjcmV0"   <-- anything you want just need to be same string as the one you put in dex configmap
     redirectURL: "http://18.217.73.69:32000/callback"  <-- Gangway external endpoint
+  ```     
 * Reapply gangway-configmap
 * run all dex yaml
 * modify dex configmap
