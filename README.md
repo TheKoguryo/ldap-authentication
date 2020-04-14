@@ -1,7 +1,10 @@
 # ldap-authentication
 Kubernetes Authentication with LDAP - Soup to Nuts
 * create namespace: kube-authentication
-* Edit host section of the script 1 with environment ip addresses. ( currently you need to start the dex service to get the  cluster ip)
+* run dex-svc.yaml
+* get cluster IP of Dex service
+  - k get all -n kube-authentication
+* Edit host section of the script 1 with environment ip addresses.
   * ```  
       "hosts": [
       "dex.kube-authentication.svc.cluster.local", 
