@@ -5,7 +5,7 @@ Kubernetes Authentication with LDAP - Soup to Nuts
 * get cluster IP of Dex service
   - k get all -n kube-authentication
 * Edit host section of the script 1 with environment ip addresses.
-```  
+  ```  
     "hosts": [
       "dex.kube-authentication.svc.cluster.local", 
       "10.102.61.151",  <-- clusterIP of Dex service
