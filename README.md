@@ -58,7 +58,8 @@ Kubernetes Authentication with LDAP - Soup to Nuts
         host: 10.100.230.194  <-- ldap service  clusterip  
 * Reapply dex configmap
 * Apply the API flags and load the cert see api-server-setup.txt
-
+* restart pod
+  - kubectl delete pod -n kube-authentication ~~
 
 * Create user using phpadmin http://<Kubeadmin worker node ip>:31000
   * login:cn=admin,dc=example,dc=org / pass:admin
