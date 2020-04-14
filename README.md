@@ -15,6 +15,11 @@ Kubernetes Authentication with LDAP - Soup to Nuts
 * run cert process scripts 1-3
 * run all  ldap yaml
 * run all phpldapadmin yaml
+* create secret for gangway
+  ```
+  kubectl -n kube-authentication create secret generic gangway-key \
+  --from-literal=sessionkey=$(openssl rand -base64 32)
+  ```
 * run all gangway yaml
 * modify gangway configmap
   ``` 
