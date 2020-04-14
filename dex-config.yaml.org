@@ -43,16 +43,7 @@ data:
           idAttr: DN
           emailAttr: mail
           nameAttr: cn 
-        groupSearch:
-          baseDN: ou=Groups,dc=example,dc=org
-          # Optional filter to apply when searching the directory.
-          filter: "(objectClass=posixGroup)"
-
-          # Following two fields are used to match a user to a group. It adds an additional
-          # requirement to the filter that an attribute in the group must match the user's
-          # attribute value.
-          userAttr: uid
-          groupAttr: memberUid
+          # The group name should be the "cn" value.
           nameAttr: cn
       oauth2:
         skipApprovalScreen: true

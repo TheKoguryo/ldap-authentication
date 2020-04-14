@@ -4,7 +4,7 @@ metadata:
   labels:
     app: dex
   name: dex
-  namespace: kube-autehntication
+  namespace: kube-authentication
 spec:
   replicas: 1
   selector:
@@ -52,6 +52,8 @@ spec:
           name: config
         - mountPath: /web/themes/custom/
           name: theme
+        - name: tls
+          mountPath: /etc/dex/tls
       dnsPolicy: ClusterFirst
       serviceAccountName: dex
       restartPolicy: Always
@@ -68,3 +70,6 @@ spec:
         name: config
       - name: theme
         emptyDir: {}
+      - name: tls
+        secret:
+          secretName: dex.example.com.tls

@@ -5,13 +5,13 @@ metadata:
   namespace: kube-authentication
 data:
   gangway.yaml: |
-    clusterName: "GANGWAY"
-    apiServerURL: "https://18.217.73.69:6443"
-    authorizeURL: "https://18.217.73.69:30010/auth"
-    tokenURL: "https://18.217.73.69:30010/token"
+    clusterName: "dev-cluster"
+    apiServerURL: "https://10.197.37.217:6443"
+    authorizeURL: "https://10.197.37.202:30010/auth"
+    tokenURL: "https://10.197.37.202:30010/token"
     clientID: "dex"
     clientSecret: "ZXhhbXBsZS1hcHAtc2VjcmV0"
-    redirectURL: "http://18.217.73.69:32000/callback"
+    redirectURL: "http://10.197.37.202:32000/callback"
     scopes: ["openid", "profile", "groups", "email", "offline_access"]
     usernameClaim: "email"
     emailClaim: "email"

@@ -1,0 +1,73 @@
+# Entry 1: dc=example,dc=org
+dn: dc=example,dc=org
+dc: example
+o: Example Inc.
+objectclass: top
+objectclass: dcObject
+objectclass: organization
+
+# Entry 2: cn=admin,dc=example,dc=org
+dn: cn=admin,dc=example,dc=org
+cn: admin
+description: LDAP administrator
+objectclass: simpleSecurityObject
+objectclass: organizationalRole
+userpassword: {SSHA}UWN/klC7pW9lh3oHOqbaSB2SDFkak3kI
+
+# Entry 3: ou=Groups,dc=example,dc=org
+dn: ou=Groups,dc=example,dc=org
+objectclass: organizationalUnit
+objectclass: top
+ou: Groups
+
+# Entry 4: cn=admins,ou=Groups,dc=example,dc=org
+dn: cn=admins,ou=Groups,dc=example,dc=org
+cn: admins
+gidnumber: 500
+memberuid: john
+memberuid: jane
+objectclass: posixGroup
+objectclass: top
+
+# Entry 5: cn=developers,ou=Groups,dc=example,dc=org
+dn: cn=developers,ou=Groups,dc=example,dc=org
+cn: developers
+gidnumber: 501
+memberuid: jane
+objectclass: posixGroup
+objectclass: top
+
+# Entry 6: ou=People,dc=example,dc=org
+dn: ou=People,dc=example,dc=org
+objectclass: organizationalUnit
+objectclass: top
+ou: People
+
+# Entry 7: cn=jane,ou=People,dc=example,dc=org
+dn: cn=jane,ou=People,dc=example,dc=org
+cn: jane
+gidnumber: 500
+homedirectory: /home/users/jane
+mail: janedoe@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: jane
+uidnumber: 1000
+userpassword: foo
+
+# Entry 8: cn=john,ou=People,dc=example,dc=org
+dn: cn=john,ou=People,dc=example,dc=org
+cn: john
+gidnumber: 501
+homedirectory: /home/users/john
+mail: johndoe@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: john
+uidnumber: 1001
+userpassword: bar
+

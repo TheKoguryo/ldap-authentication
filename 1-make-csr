@@ -4,8 +4,8 @@ cat <<EOF | cfssl genkey - | cfssljson -bare server
 {                                       
   "hosts": [                   
     "dex.kube-authentication.svc.cluster.local",
-    "10.102.61.151",
-    "18.217.73.69"  
+    "100.65.27.208",
+    "10.197.37.202"  
   ],
   "CN": "dex.kube-authentication.svc.cluster.local",
   "key": {
