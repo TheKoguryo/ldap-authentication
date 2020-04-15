@@ -34,7 +34,7 @@ Kubernetes Authentication with LDAP - Soup to Nuts
 * Reapply gangway-configmap
 * run all dex yaml
 * modify dex configmap
-  * ```  
+  ```  
     issuer: https://18.217.73.69:30010  <-- Dex endpoint
     storage:
       type: kubernetes
@@ -56,6 +56,7 @@ Kubernetes Authentication with LDAP - Soup to Nuts
       id: ldap
       config:
         host: 10.100.230.194  <-- ldap service  clusterip  
+  ```          
 * Reapply dex configmap
 * Apply the API flags and load the cert see api-server-setup.txt
 * restart dex, gangway, ldap, php pod
