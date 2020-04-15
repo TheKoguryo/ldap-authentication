@@ -12,6 +12,7 @@ objectclass: top
 dn: cn=user11,ou=People,dc=example,dc=org
 cn: user11
 gidnumber: 503
+homedirectory: /home/users/user11
 mail: user11@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
@@ -24,6 +25,7 @@ userpassword: pass
 dn: cn=user12,ou=People,dc=example,dc=org
 cn: user12
 gidnumber: 503
+homedirectory: /home/users/user12
 mail: user12@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
@@ -36,6 +38,7 @@ userpassword: pass
 dn: cn=user13,ou=People,dc=example,dc=org
 cn: user13
 gidnumber: 503
+homedirectory: /home/users/user13
 mail: user13@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
@@ -48,6 +51,7 @@ userpassword: pass
 dn: cn=user14,ou=People,dc=example,dc=org
 cn: user14
 gidnumber: 503
+homedirectory: /home/users/user14
 mail: user14@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
@@ -60,6 +64,7 @@ userpassword: pass
 dn: cn=user15,ou=People,dc=example,dc=org
 cn: user15
 gidnumber: 503
+homedirectory: /home/users/user15
 mail: user15@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount

@@ -9,14 +9,10 @@ memberuid: user25
 objectclass: posixGroup
 objectclass: top
 
-dn: ou=People,dc=example,dc=org
-objectclass: organizationalUnit
-objectclass: top
-ou: People
-
 dn: cn=user21,ou=People,dc=example,dc=org
 cn: user21
 gidnumber: 505
+homedirectory: /home/users/user21
 mail: user21@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
@@ -29,6 +25,7 @@ userpassword: pass
 dn: cn=user22,ou=People,dc=example,dc=org
 cn: user22
 gidnumber: 505
+homedirectory: /home/users/user22
 mail: user22@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
@@ -41,6 +38,7 @@ userpassword: pass
 dn: cn=user23,ou=People,dc=example,dc=org
 cn: user23
 gidnumber: 505
+homedirectory: /home/users/user23
 mail: user23@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
@@ -53,6 +51,7 @@ userpassword: pass
 dn: cn=user24,ou=People,dc=example,dc=org
 cn: user24
 gidnumber: 505
+homedirectory: /home/users/user24
 mail: user24@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
@@ -65,6 +64,7 @@ userpassword: pass
 dn: cn=user25,ou=People,dc=example,dc=org
 cn: user25
 gidnumber: 505
+homedirectory: /home/users/user25
 mail: user25@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
