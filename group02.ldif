@@ -39,7 +39,7 @@ dn: cn=user08,ou=People,dc=example,dc=org
 cn: user08
 gidnumber: 502
 homedirectory: /home/users/user08
-mail: user01@example.com
+mail: user08@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: top

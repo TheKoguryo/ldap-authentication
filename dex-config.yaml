@@ -16,10 +16,20 @@ data:
       tlsCert: /etc/dex/tls/tls.crt
       tlsKey: /etc/dex/tls/tls.key
     staticClients:
-    - id: dex 
+    - id: dex
       redirectURIs:
       - 'http://10.197.37.202:32000/callback'
       name: 'gangway'
+      secret: ZXhhbXBsZS1hcHAtc2VjcmV0
+    - id: harbor
+      redirectURIs:
+      - 'https://harbor-01.demo.local:30003/c/oidc/callback'
+      name: 'harbor'
+      secret: ZXhhbXBsZS1hcHAtc2VjcmV0
+    - id: grafana
+      redirectURIs:
+      - 'http://10.197.37.202:31506/login/generic_oauth'
+      name: 'grafana'
       secret: ZXhhbXBsZS1hcHAtc2VjcmV0
     connectors:
     - type: ldap

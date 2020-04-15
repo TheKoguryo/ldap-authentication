@@ -13,5 +13,5 @@ data:
     clientSecret: "ZXhhbXBsZS1hcHAtc2VjcmV0"
     redirectURL: "http://10.197.37.202:32000/callback"
     scopes: ["openid", "profile", "groups", "email", "offline_access"]
-    usernameClaim: "name"
-    emailClaim: "name"
+    usernameClaim: "email"
+    emailClaim: "email"
