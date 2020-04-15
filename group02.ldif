@@ -65,17 +65,10 @@ dn: cn=user10,ou=People,dc=example,dc=org
 cn: user10
 gidnumber: 502
 homedirectory: /home/users/user10
-mail: user01@example.com
+mail: user10@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: top
 sn: doe
 uid: user10
 uidnumber: 1010
-userpassword: pass
-
-
-
-
-
-

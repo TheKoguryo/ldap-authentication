@@ -157,20 +157,13 @@ dn: cn=user10,ou=People,dc=example,dc=org
 cn: user10
 gidnumber: 502
 homedirectory: /home/users/user10
-mail: user01@example.com
+mail: user10@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: top
 sn: doe
 uid: user10
 uidnumber: 1010
-userpassword: pass
-
-
-
-
-
-
 dn: cn=group03,ou=Groups,dc=example,dc=org
 cn: group03
 gidnumber: 503
@@ -287,7 +280,7 @@ dn: cn=user18,ou=People,dc=example,dc=org
 cn: user18
 gidnumber: 504
 homedirectory: /home/users/user18
-mail: user11@example.com
+mail: user18@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: top
@@ -313,7 +306,7 @@ dn: cn=user20,ou=People,dc=example,dc=org
 cn: user20
 gidnumber: 504
 homedirectory: /home/users/user20
-mail: user11@example.com
+mail: user20@example.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: top
@@ -321,7 +314,6 @@ sn: doe
 uid: user20
 uidnumber: 1020
 userpassword: pass
-
 dn: cn=group05,ou=Groups,dc=example,dc=org
 cn: group05
 gidnumber: 505
