@@ -4,4 +4,5 @@
     - --oidc-issuer-url=https://<Dex endpoint>   
     - --oidc-client-id=dex
     - --oidc-username-claim=email
+    - --oidc-groups-claim=groups
     - --oidc-ca-file=/etc/kubernetes/pki/server.crt
