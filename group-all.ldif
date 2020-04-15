@@ -1,0 +1,384 @@
+dn: dc=example,dc=org
+dc: example
+o: Example Inc.
+objectclass: top
+objectclass: dcObject
+objectclass: organization
+
+dn: ou=Groups,dc=example,dc=org
+objectclass: organizationalUnit
+objectclass: top
+ou: Groups
+
+dn: cn=group01,ou=Groups,dc=example,dc=org
+cn: group01
+gidnumber: 501
+memberuid: user01
+memberuid: user02
+memberuid: user03
+memberuid: user04
+memberuid: user05
+objectclass: posixGroup
+objectclass: top
+
+dn: ou=People,dc=example,dc=org
+objectclass: organizationalUnit
+objectclass: top
+ou: People
+
+dn: cn=user01,ou=People,dc=example,dc=org
+cn: user01
+gidnumber: 501
+mail: user01@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user01
+uidnumber: 1001
+userpassword: pass
+
+dn: cn=user02,ou=People,dc=example,dc=org
+cn: user02
+gidnumber: 501
+mail: user02@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user02
+uidnumber: 1002
+userpassword: pass
+
+dn: cn=user03,ou=People,dc=example,dc=org
+cn: user03
+gidnumber: 501
+mail: user03@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user03
+uidnumber: 1003
+userpassword: pass
+
+dn: cn=user04,ou=People,dc=example,dc=org
+cn: user04
+gidnumber: 501
+mail: user04@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user04
+uidnumber: 1004
+userpassword: pass
+
+dn: cn=user05,ou=People,dc=example,dc=org
+cn: user05
+gidnumber: 501
+mail: user05@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user05
+uidnumber: 1005
+userpassword: pass
+dn: cn=group02,ou=Groups,dc=example,dc=org
+cn: group02
+gidnumber: 502
+memberuid: user06
+memberuid: user07
+memberuid: user08
+memberuid: user09
+memberuid: user10
+objectclass: posixGroup
+objectclass: top
+
+dn: cn=user06,ou=People,dc=example,dc=org
+cn: user06
+gidnumber: 502
+mail: user06@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user06
+uidnumber: 1006
+userpassword: pass
+
+dn: cn=user07,ou=People,dc=example,dc=org
+cn: user07
+gidnumber: 502
+mail: user07@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user07
+uidnumber: 1007
+userpassword: pass
+
+dn: cn=user08,ou=People,dc=example,dc=org
+cn: user08
+gidnumber: 502
+mail: user01@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user08
+uidnumber: 1008
+userpassword: pass
+
+dn: cn=user09,ou=People,dc=example,dc=org
+cn: user09
+gidnumber: 502
+mail: user09@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user09
+uidnumber: 1009
+userpassword: pass
+
+dn: cn=user10,ou=People,dc=example,dc=org
+cn: user10
+gidnumber: 502
+mail: user01@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user10
+uidnumber: 1010
+userpassword: pass
+
+
+
+
+
+
+dn: cn=group03,ou=Groups,dc=example,dc=org
+cn: group03
+gidnumber: 503
+memberuid: user11
+memberuid: user12
+memberuid: user13
+memberuid: user14
+memberuid: user15
+objectclass: posixGroup
+objectclass: top
+
+dn: cn=user11,ou=People,dc=example,dc=org
+cn: user11
+gidnumber: 503
+mail: user11@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user11
+uidnumber: 1011
+userpassword: pass
+
+dn: cn=user12,ou=People,dc=example,dc=org
+cn: user12
+gidnumber: 503
+mail: user12@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user12
+uidnumber: 1012
+userpassword: pass
+
+dn: cn=user13,ou=People,dc=example,dc=org
+cn: user13
+gidnumber: 503
+mail: user13@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user13
+uidnumber: 1013
+userpassword: pass
+
+dn: cn=user14,ou=People,dc=example,dc=org
+cn: user14
+gidnumber: 503
+mail: user14@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user14
+uidnumber: 1014
+userpassword: pass
+
+dn: cn=user15,ou=People,dc=example,dc=org
+cn: user15
+gidnumber: 503
+mail: user15@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user15
+uidnumber: 1015
+userpassword: pass
+dn: cn=group04,ou=Groups,dc=example,dc=org
+cn: group04
+gidnumber: 504
+memberuid: user16
+memberuid: user17
+memberuid: user18
+memberuid: user19
+memberuid: user10
+objectclass: posixGroup
+objectclass: top
+
+dn: cn=user16,ou=People,dc=example,dc=org
+cn: user16
+gidnumber: 504
+mail: user16@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user16
+uidnumber: 1016
+userpassword: pass
+
+dn: cn=user17,ou=People,dc=example,dc=org
+cn: user17
+gidnumber: 504
+mail: user17@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user17
+uidnumber: 1017
+userpassword: pass
+
+dn: cn=user18,ou=People,dc=example,dc=org
+cn: user18
+gidnumber: 504
+mail: user11@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user18
+uidnumber: 1018
+userpassword: pass
+
+dn: cn=user19,ou=People,dc=example,dc=org
+cn: user19
+gidnumber: 504
+mail: user19@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user19
+uidnumber: 1019
+userpassword: pass
+
+dn: cn=user20,ou=People,dc=example,dc=org
+cn: user20
+gidnumber: 504
+mail: user11@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user20
+uidnumber: 1020
+userpassword: pass
+
+
+
+
+
+
+dn: cn=group05,ou=Groups,dc=example,dc=org
+cn: group05
+gidnumber: 505
+memberuid: user21
+memberuid: user22
+memberuid: user23
+memberuid: user24
+memberuid: user25
+objectclass: posixGroup
+objectclass: top
+
+dn: ou=People,dc=example,dc=org
+objectclass: organizationalUnit
+objectclass: top
+ou: People
+
+dn: cn=user21,ou=People,dc=example,dc=org
+cn: user21
+gidnumber: 505
+mail: user21@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user21
+uidnumber: 1021
+userpassword: pass
+
+dn: cn=user22,ou=People,dc=example,dc=org
+cn: user22
+gidnumber: 505
+mail: user22@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user22
+uidnumber: 1022
+userpassword: pass
+
+dn: cn=user23,ou=People,dc=example,dc=org
+cn: user23
+gidnumber: 505
+mail: user23@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user23
+uidnumber: 1023
+userpassword: pass
+
+dn: cn=user24,ou=People,dc=example,dc=org
+cn: user24
+gidnumber: 505
+mail: user24@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user24
+uidnumber: 1024
+userpassword: pass
+
+dn: cn=user25,ou=People,dc=example,dc=org
+cn: user25
+gidnumber: 505
+mail: user25@example.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: doe
+uid: user25
+uidnumber: 1025
+userpassword: pass
