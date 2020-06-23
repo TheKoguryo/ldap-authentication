@@ -13,14 +13,7 @@ Kubernetes Authentication with LDAP - Soup to Nuts
     ],
   ```  
 * run cert process scripts 1-3
-* run all  ldap yaml
-
-<details>
-  <summary>* Click to expand!</summary>
-  
-test
-</details>
-
+* run all ldap yaml
 * run all phpldapadmin yaml
 * create secret for gangway
   ```
